@@ -1,0 +1,25 @@
+.quem-somos {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.quem-somos h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.quem-somos p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.quem-somos::after {
+    content: "";
+    display: block;
+    clear: both;
+}

@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.menu {
+
+   display: flex;
+   list-style: none;
+   list-style-type: none;
+}
+
+.itemMenu{
+  margin-right: 1em;
+  background-color: #ededed;
+  color: #333
+}rodape {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7.5rem; /* altura do rodapé */
+  }
+  .social_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  }
+  .social_list li {
+  margin: 0 1em;
+  }
+  .social_list svg{
+  font-size: 1.5em;
+  cursor: pointer;
+  color: red;
+  }
+  
